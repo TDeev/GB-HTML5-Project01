@@ -217,6 +217,7 @@ body{
 .main-dignity-content-item-sum{
     padding: 0 0 0 50px;
     font-weight: bold;
+    outline: none;
 }
 
 .main-dignity-content-item-sum::-webkit-details-marker {
