@@ -224,7 +224,6 @@ body{
 }
 
 .main-dignity-content-item-sum::after {
-    /* content: "+"; */
     content: "";
     position: absolute;
     left: 0;
@@ -232,22 +231,23 @@ body{
     
     width: 32px;
     height: 32px;
-    /* background: #445161; */
     background-image: url("../img/plus_icon.png");
     background-repeat: no-repeat;
 
-    /* color: #fff; */
-    /* font-size: 1.5em; */
-    /* font-weight: bold;
-    text-align: center; */
-    
-    /* line-height: 32px; */
+    /* background: #445161; */
+    /* content: "+"; */
+    /* color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    line-height: 32px; */
 }
 
 details[open] .main-dignity-content-item-sum::after{
-    /* content: "-"; */
     background-image: url("../img/minus_icon.png");
     background-repeat: no-repeat;
+        
+    /* content: "-"; */
 }
 
 .main-dignity-content-item-p{
