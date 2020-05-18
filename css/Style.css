@@ -199,6 +199,7 @@ body{
 
 .main-dignity-content-right{
     width: 567px;
+    /* !скорее всего тут лучше делать % соотношение */
     float: right;
 
     /* border: 1px solid black;
