@@ -159,6 +159,10 @@ body{
     box-sizing: border-box; */
 }
 
+.main-about-content:last-child {
+    margin: 0;
+}
+
 .main-about-video{
     float: right;
     /* width: 430px;
@@ -209,6 +213,7 @@ body{
 .main-dignity-content-item{
     position: relative;
     margin: 0 0 30px 0;
+    padding: 0 0 0 50px;
 }
 
 .main-dignity-content-item:nth-last-of-type(1) {
@@ -216,8 +221,8 @@ body{
 }
 
 .main-dignity-content-item-sum{
-    padding: 0 0 0 50px;
-    font-weight: bold;
+    /* padding: 0 0 0 50px; */
+    /* font-weight: bold; */
     outline: none;
 }
 
@@ -252,9 +257,9 @@ details[open] .main-dignity-content-item-sum::after{
     /* content: "-"; */
 }
 
-.main-dignity-content-item-p{
+/* .main-dignity-content-item-p{
     padding-left: 50px;
-}
+} */
 
 
 /*------------Section (Скриншоты)------------*/
