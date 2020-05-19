@@ -10,7 +10,6 @@ body{
 .container{
     width: 1280px;
     margin: 0 auto;
-
     /* border: 1px solid black;
     box-sizing: border-box; */
 }
@@ -20,7 +19,6 @@ body{
     padding: 50px;
     background-color: #445162;
     /* min-height: 323px; */
-
     /* border: 1px solid black; */
     /* box-sizing: border-box; */
 }
@@ -30,7 +28,6 @@ body{
     display: block;
     width: 100%;
     clear: both;
-
     /* border: 1px solid black;
     box-sizing: border-box; */
 } 
@@ -38,10 +35,8 @@ body{
 .page-header-wrap{
     float: left;
     width: 650px;
-
     /* *тут есть задумка: .img поднять выше .wrap в HTML, и у .img сделать golat:right. 
     *тогда можно избавиться в этом блоке от ширины и float: right */
-
     /* border: 1px solid black;
     box-sizing: border-box; */
 }
@@ -53,7 +48,6 @@ body{
     line-height: 45px;
     /* ?скорее всего это лишнее, не знаю как иначе прижать текст к границе родителя */
     /* !изначально задал H1 потом изменил на span и изменил размер */
-
     /* border: 1px solid black;
     box-sizing: border-box; */
 }
@@ -62,7 +56,6 @@ body{
     margin: 0;
     padding: 0 0 0 37px;
     list-style: none;
-
     /* border: 1px solid black;
     box-sizing: border-box; */
 }
@@ -71,7 +64,6 @@ body{
     position: relative;
     font-size: 20px;
     margin-bottom: 12px;
-
     /* border: 1px solid black;
     box-sizing: border-box; */
 }
@@ -81,12 +73,10 @@ body{
     display: block;
     position: absolute;
     left: -37px;
-
     width: 25px;
     height: 19px;
     /* background-color: #fff;
     border: 1px solid black; */
-
     background-image: url("../img/check_icon.png");
     background-repeat: no-repeat;
 }
@@ -112,7 +102,6 @@ body{
 /*------------Main (Основной раздел)------------*/
 .main{
     color:#333333;
-
 }
 
 
@@ -135,7 +124,6 @@ body{
 .main-about-wrap{
     float: left;
     width: 650px;
-
     /* border: 1px solid black;
     box-sizing: border-box; */
 }
@@ -145,7 +133,6 @@ body{
     margin: 0 0 30px 0;
     color: #445161;
     font-size: 30px;
-
     /* border: 1px solid black;
     box-sizing: border-box; */
 }
@@ -154,7 +141,6 @@ body{
     font-size: 16px;
     text-align: justify;
     margin: 0 0 16px 0;
-
     /* border: 1px solid black;
     box-sizing: border-box; */
 }
@@ -196,7 +182,6 @@ body{
 .main-dignity-content-left{
     width: 567px;
     float: left;
-
     /* border: 1px solid red;
     box-sizing: border-box; */
 }
@@ -205,7 +190,6 @@ body{
     width: 567px;
     /* !скорее всего тут лучше делать % соотношение */
     float: right;
-
     /* border: 1px solid black;
     box-sizing: border-box; */
 }
@@ -279,7 +263,6 @@ details[open] .main-dignity-content-item-sum::after{
     margin: 0 0 35px 0;
     color: #445161;
     font-size: 30px;
-
     display: block;
     text-align: center;
 }
@@ -292,11 +275,8 @@ details[open] .main-dignity-content-item-sum::after{
     margin: 0 15px 30px 0;
     height: 150px;
     width: 575px;
-
     display: inline-block;
-
     font-size: 16px;
-
     /* border: 1px solid black;
     box-sizing: border-box; */
 }
@@ -318,21 +298,19 @@ details[open] .main-dignity-content-item-sum::after{
     background-color: #445161;
     color: white;
     margin: 0 15px 0 0;
-
     /* border: 1px solid black;
     box-sizing: border-box; */
 }
 
-.main-screen-item-desc{
+/* .main-screen-item-desc{
     
-}
+} */
 
 .main-screen-item-desc-title{
     margin: 0 0 16px 0;
     color: #445161;
     font-size: 24px;
     display: block;
-
     line-height: 15px;
 }
 
