@@ -10,17 +10,30 @@ body{
 .container{
     width: 1280px;
     margin: 0 auto;
-    /* border: 1px solid black;
-    box-sizing: border-box; */
+}
+
+.border-box-site{
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.padding-site{
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.title-site{
+    display: block;
+    margin: 0 0 30px 0;
+    color: #445161;
+    font-size: 30px;
+    text-align: center;
 }
 
 /*------------Header (Шапка)------------*/
 .page-header{
-    padding: 50px;
     background-color: #445162;
     /* min-height: 323px; */
-    /* border: 1px solid black; */
-    /* box-sizing: border-box; */
 }
 
 .page-header::after{
@@ -28,8 +41,6 @@ body{
     display: block;
     width: 100%;
     clear: both;
-    /* border: 1px solid black;
-    box-sizing: border-box; */
 } 
 
 .page-header-wrap{
@@ -37,8 +48,6 @@ body{
     width: 650px;
     /* *тут есть задумка: .img поднять выше .wrap в HTML, и у .img сделать golat:right. 
     *тогда можно избавиться в этом блоке от ширины и float: right */
-    /* border: 1px solid black;
-    box-sizing: border-box; */
 }
 
 .page-header-title{
@@ -48,24 +57,18 @@ body{
     line-height: 45px;
     /* ?скорее всего это лишнее, не знаю как иначе прижать текст к границе родителя */
     /* !изначально задал H1 потом изменил на span и изменил размер */
-    /* border: 1px solid black;
-    box-sizing: border-box; */
 }
 
 .page-header-list{
     margin: 0;
     padding: 0 0 0 37px;
     list-style: none;
-    /* border: 1px solid black;
-    box-sizing: border-box; */
 }
 
 .page-header-list-item{
     position: relative;
     font-size: 20px;
     margin-bottom: 12px;
-    /* border: 1px solid black;
-    box-sizing: border-box; */
 }
 
 .page-header-list-item::before{
@@ -93,9 +96,6 @@ body{
     height: 214px; */
     background-color: white;
     color: black;
-
-    /* border: 1px solid black;
-    box-sizing: border-box; */
 }
 
 
@@ -107,11 +107,7 @@ body{
 
 /*------------Section (О товаре)------------*/
 .main-about{
-    padding: 50px;
     background-color: white;
-    
-    /* border: 1px solid black;
-    box-sizing: border-box; */
 }
 
 .main-about::after{
@@ -124,8 +120,6 @@ body{
 .main-about-wrap{
     float: left;
     width: 650px;
-    /* border: 1px solid black;
-    box-sizing: border-box; */
 }
 
 .main-about-title{
@@ -133,16 +127,12 @@ body{
     margin: 0 0 30px 0;
     color: #445161;
     font-size: 30px;
-    /* border: 1px solid black;
-    box-sizing: border-box; */
 }
 
 .main-about-content{
     font-size: 16px;
     text-align: justify;
     margin: 0 0 16px 0;
-    /* border: 1px solid black;
-    box-sizing: border-box; */
 }
 
 .main-about-content:last-child {
@@ -157,9 +147,8 @@ body{
 }
 
 
-/*------------Section (Плюсы И достоинства)------------*/
+/*------------Dignity (Плюсы И достоинства)------------*/
 .main-dignity{
-    padding: 50px;
     background-color: #f5f5f5;
 }
 
@@ -170,28 +159,24 @@ body{
     clear: both;
 } 
 
-.main-dignity-title{
+/* .main-dignity-title{
     margin: 0 0 30px 0;
     color: #445161;
     font-size: 30px;
 
     display: block;
     text-align: center;
-}
+} */
 
 .main-dignity-content-left{
     width: 567px;
     float: left;
-    /* border: 1px solid red;
-    box-sizing: border-box; */
 }
 
 .main-dignity-content-right{
     width: 567px;
     /* !скорее всего тут лучше делать % соотношение */
     float: right;
-    /* border: 1px solid black;
-    box-sizing: border-box; */
 }
 
 .main-dignity-content-item{
@@ -246,9 +231,8 @@ details[open] .main-dignity-content-item-sum::after{
 } */
 
 
-/*------------Section (Скриншоты)------------*/
+/*------------Screenshots (Скриншоты)------------*/
 .main-screen{
-    padding: 50px;
     background-color: white;
 }
 
@@ -259,13 +243,13 @@ details[open] .main-dignity-content-item-sum::after{
     clear: both;
 } 
 
-.main-screen-title{
+/* .main-screen-title{
     margin: 0 0 35px 0;
     color: #445161;
     font-size: 30px;
     display: block;
     text-align: center;
-}
+} */
 
 .main-screen-wrap{
     font-size: 0;
@@ -277,16 +261,10 @@ details[open] .main-dignity-content-item-sum::after{
     width: 575px;
     display: inline-block;
     font-size: 16px;
-    /* border: 1px solid black;
-    box-sizing: border-box; */
 }
 
 
-.main-screen-item:nth-last-of-type(1) {
-    margin: 0 15px 0 0;
-}
-
-.main-screen-item:nth-last-of-type(2) {
+.main-screen-item:nth-last-of-type(1), .main-screen-item:nth-last-of-type(2) {
     margin: 0 15px 0 0;
 }
 
@@ -298,8 +276,6 @@ details[open] .main-dignity-content-item-sum::after{
     background-color: #445161;
     color: white;
     margin: 0 15px 0 0;
-    /* border: 1px solid black;
-    box-sizing: border-box; */
 }
 
 /* .main-screen-item-desc{
@@ -321,3 +297,74 @@ details[open] .main-dignity-content-item-sum::after{
     -ms-hyphens: auto; */
     line-height: 24px;
 }
+
+/*------------Reviews (Отзывы------------*/
+.main-reviews{
+    background-color: #f5f5f5;
+}
+
+.main-reviews-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.main-reviews-title{
+    display: block;
+    margin: 0 0 30px 0;
+    color: #445161;
+    font-size: 30px;
+    text-align: center;
+}
+
+.main-reviews-item{
+    width: 49%;
+    min-height: 50px;
+    margin: 0 0 25px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.main-reviews-item:nth-child(3), .main-reviews-item:nth-child(4) {
+    margin-bottom: 0;
+}
+
+.main-reviews-item-img{
+    margin: 0 25px 0 0;
+    background-color: #445161;
+    border-radius: 50%;
+    color: white;
+}
+
+.main-reviews-item-content-wrap{
+    position: relative;
+    width: 82%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #ebebeb;
+    border-radius: 5px;
+}
+
+.main-reviews-item-content-wrap::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 23px;
+    left: -30px;
+    border: 15px solid transparent;
+    border-right: 15px solid #ebebeb;
+}
+
+.main-reviews-item-p{
+    margin: 0 0 15px 0;
+    font-style: italic;
+}
+
+.main-reviews-item-span{    
+    color: #989898;
+}
+
