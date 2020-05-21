@@ -13,7 +13,7 @@ body{
 }
 
 .border-box-site{
-    border: 1px solid black;
+    border: 1px solid #445162;
     box-sizing: border-box;
 }
 
@@ -338,6 +338,7 @@ details[open] .main-dignity-content-item-sum::after{
     background-color: #445161;
     border-radius: 50%;
     color: white;
+    font-size: 12px;
 }
 
 .main-reviews-item-content-wrap{
@@ -368,3 +369,85 @@ details[open] .main-dignity-content-item-sum::after{
     color: #989898;
 }
 
+/*------------Buy (Отзывы------------*/
+.main-buy{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.main-buy-title{
+    width: 100%;
+}
+
+.main-buy-item{
+    width: 300px;
+    margin: 0 45px 0 0;
+    border: 2px solid #445162;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #445162;
+    color: white;
+}
+
+.main-buy-item:last-child{
+    margin: 0;
+}
+
+.main-item-title{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 17px;
+    font-size: 24px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.main-item-price{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 16px;
+    font-size: 40px;
+    color: #445162;
+    text-align: center;
+    background-color: white;
+}
+
+.main-item-ol{
+    margin: 20px 0 10px 0;
+    font-size: 14px;
+    list-style-position: inside;
+    padding: 0 0 0 21px;
+}
+
+.main-item-lo-li{
+
+}
+
+.main-item-btn{
+    display: block;
+    margin: 20px auto;
+    width: 260px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    outline: none;
+    background-color: white;
+    padding: 0;
+}
+
+.main-item-btn:hover{
+    background-color: #445162;
+    color: white;
+}
+
+.main-item-btn:active{
+    background-color: white;
+    color: #445162;
+}
