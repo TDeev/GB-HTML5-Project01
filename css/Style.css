@@ -482,6 +482,7 @@ details[open] .main-dignity-content-item-sum::after{
     height: 40px;
     box-sizing: border-box;
     color: #445162;
+    outline: none;
 }
 
 .page-footer-contacts-form-inp::-webkit-input-placeholder { 
@@ -491,7 +492,8 @@ details[open] .main-dignity-content-item-sum::after{
 .page-footer-contacts-form-txt{
     height: 170px;
     font-size: 16px;
-    font-family: inherit
+    font-family: inherit;
+    resize: none;
 }
 
 .page-footer-contacts-form-txt::-webkit-input-placeholder { 
