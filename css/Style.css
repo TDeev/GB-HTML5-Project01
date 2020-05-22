@@ -201,7 +201,6 @@ body{
     position: absolute;
     left: 0;
     top: -8px;
-    
     width: 32px;
     height: 32px;
     background-image: url("../img/plus_icon.png");
@@ -219,7 +218,6 @@ body{
 details[open] .main-dignity-content-item-sum::after{
     background-image: url("../img/minus_icon.png");
     background-repeat: no-repeat;
-        
     /* content: "-"; */
 }
 
